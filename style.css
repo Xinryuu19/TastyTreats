@@ -1518,6 +1518,384 @@ html, body {
   .font-nav{
   
     font-family: myFont;
+    font-size: 1rem !important;
+  }
+  
+  .font-carousel{
+  
+    font-family: myFont;
+    font-size: 20px;
+  }
+
+  .font-head{
+
+    font-family: myFont;
+    font-size: 5.5rem;
+  }
+
+  .font-carousel-text{
+  
+    font-family: myFont;
+    font-size: 1.5rem;
+  }
+
+  .font-btn{
+
+    font-family: myFont;
+    font-size: 1.5rem;
+  }
+
+  .font-logo{
+
+    font-family: myFont !important;
+    font-size: 1.2rem;
+  }
+
+  .font-content-head{
+
+    font-family: myFont !important;
+    font-size: 4.5rem;
+  }
+
+  .font-content-head2{
+
+    font-family: myFont !important;
+    font-size: 4.5rem;
+    border-left: 5px solid #c49a6c; padding-left: 10px;
+  }
+
+  
+  .font-content-head2-2{
+
+    font-family: myFont !important;
+    font-size: 3.8rem;
+    border-left: 5px solid #c49a6c; padding-left: 10px;
+    margin-top: 80px;
+  }
+
+  .font-content{
+
+    font-family: myFont !important;
+    font-size: 1.7rem;
+  }
+
+  .font-content2{
+
+    font-family: myFont !important;
+    font-size: 1.7rem;
+  }
+
+  .font-content2-2{
+
+    font-family: myFont !important;
+    font-size: 1.4rem;
+  }
+
+  .font-search{
+
+    font-family: myFont !important;
+    font-size: 1rem;
+  }
+
+
+  
+ 
+
+  .navbar {
+    padding: 20px 0; /* Increase top and bottom padding */
+    min-height: 80px; /* Adjust navbar height */
+  }
+  
+  .navbar-brand img {
+    height: 50px; /* Adjust logo size */
+    width: 50px;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 18px; /* Increase font size for better spacing */
+    padding: 10px 15px; /* Increase padding around links */
+  }  
+
+  .carousel,
+.carousel-inner,
+.carousel-item {
+  height: 950px; /* Adjust this value as needed */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-img {
+  max-height: 950px; object-fit: cover;
+}
+
+.carousel-caption {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  padding: 20px;
+}
+
+.carousel-indicators button {
+  width: px;  
+  height: 12px;
+  border-radius: 50%; /* Makes the indicators circular */
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+  border: none;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+/* Navbar link hover effect */
+.navbar-nav .nav-link {
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 5px 10px;
+}
+/* Fix for centering the text inside the carousel */
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4); /* Optional: adds slight overlay for readability */
+  padding: 20px;
+  border-radius: 10px; /* Optional: for softer edges */
+}
+
+.btn-primary{
+  background-color: #F5F5DC !important; /* Beige color */
+  color: #000 !important; /* Black text */
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+  transform: scale(1.05);
+}
+
+  
+.navbar-nav .nav-link:hover {
+  color: #F5F5DC !important; /* Bootstrap info color */
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Highlight the active page (About Us) */
+.navbar-nav .nav-item .active {
+  color: #F5F5DC !important;
+  font-weight: bold;
+  border-bottom: 2px solid #F5F5DC;
+
+}
+
+/* Custom beige button */
+.btn-custom {
+  background-color: #F5F5DC !important; /* Beige color */
+  color: #000 !important; /* Black text */
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+
+.btn-custom:hover {
+  background-color: #e0e0c0 !important; /* Slightly darker beige */
+  color: #000 !important;
+  
+}
+
+.search-input{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.search-btn{
+  margin-top: 10px;
+}
+
+
+.btn-learn{
+
+  margin-left: 200px;
+  margin-top: 20px;
+  background-color: #F5F5DC !important; /* Beige color */
+  color: #532e0a!important; 
+  border-color: #532e0a;
+}
+/* Active dot style */
+.carousel-indicators .active {
+  background-color: white; /* Fully visible white for active */
+  opacity: 1;
+}
+
+.content-section {
+  min-height: 950px; /* Adjust padding for height */
+  text-align: center;
+  background-color: #2e2b27; color: white;
+}
+
+.content-section {
+  background: url('img/cafe.jpg') center/cover no-repeat;
+  position: relative;
+  color: white;
+}
+.content-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark transparency layer */
+}
+.content-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+
+.img-content {
+  width: 100%; /* Makes it scale with the section */
+  max-width: 1600px; /* Ensures it doesn’t get too big */
+  height: 700px; /* Adjust this to control cropping */
+  max-height: 900px; /* Limits height growth */
+  opacity: 1; 
+  transform: rotate(-0deg); /* Slight tilt for aesthetics */
+  position: relative; 
+  top: 30px; 
+  left: 50px;
+  
+ 
+}
+
+.img-content2 {
+  width: 100%; /* Makes it scale with the section */
+  max-width: 1600px; /* Ensures it doesn’t get too big */
+  height: 700px; /* Adjust this to control cropping */
+  max-height: 900px; /* Limits height growth */
+  opacity: 1; 
+  transform: rotate(0deg); /* Slight tilt for aesthetics */
+  position: relative; 
+  top: 40px; 
+  left: 120px;
+  
+  
+}
+
+
+
+.content-section2 {
+  
+    min-height: 970px; /* Adjust this value as needed */
+    background-color: white;
+    text-align: center;
+    display: flex;  /* Ensures it stretches */
+    flex-direction: column;
+    justify-content: center; /* Centers content */
+  
+  
+}
+
+
+
+/*Profile*/
+
+.fixed-image {
+  width: 100%; 
+  height: 200px; /* Adjust height as needed */
+  object-fit: cover; /* Ensures images maintain aspect ratio and fill the space */
+}
+
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/*Content ng Menu*/
+.details-box {
+  background: white;
+  min-height: 410px;
+}
+
+.menuimg-container {
+  background: white;
+  min-height: 400px;
+}
+
+.food-section {
+  padding: 200px 0; /* Adjust padding for height */
+  background-color: Beige; /* Light background */
+  text-align: center;
+  
+}
+
+.footer {
+  background-color: #4d2600;
+  color: #f5deb3;
+  padding: 20px;
+}
+.footer {
+  background-color: #4d2600;
+  color: #f5deb3;
+  padding: 20px;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+.footer h6 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.footer p, .footer a {
+  color: #f5deb3;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .social-icons a {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #f5deb3;
+}
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #f5deb3;
+}
+
+}
+
+@media (min-width: 1400px) {
+  .font{
+
+    font-family: myFont;
+  }
+  
+  .font-nav{
+  
+    font-family: myFont;
     font-size: 1.1rem !important;
   }
   
@@ -1873,5 +2251,6 @@ html, body {
   padding-top: 10px;
   border-top: 1px solid #f5deb3;
 }
+
 
 }

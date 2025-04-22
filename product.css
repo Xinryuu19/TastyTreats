@@ -1,0 +1,756 @@
+@keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-slide-in {
+    animation: slideInLeft 1s ease-out forwards;
+  }
+  .animate-slide-in2 {
+    animation: slideInLeft 1.5s ease-out forwards;
+ 
+  }
+
+.font-product-head{
+
+    font-family: myFont2 !important;
+    font-size: 2rem;
+    color: #532e0a;
+  }
+
+  .font-product-subhead{
+
+    font-family: myFont2 !important;
+    font-size: 1rem;
+    color: #532e0a;
+  }
+
+  .font-product-bodytext{
+
+    font-family: myFont2 !important;
+    font-size: 0.7rem;
+    color: #2d2d2d;
+  }
+
+  .font-product-price{
+
+    font-family: myFont2 !important;
+    font-size: 1rem;
+    color: #2d2d2d;
+  }
+
+  .font-product-btn{
+
+    font-family: myFont2 !important;
+    font-size: 1rem;
+    
+  }
+
+
+  .product-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    height: 970px;
+    background-image: url('img/cafe.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+/* Dark overlay */
+.product-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* adjust opacity here */
+    z-index: 2;
+}
+
+/* Make sure the content is above the overlay */
+.product-card {
+    position: relative;
+    z-index: 3;
+}
+
+.product-card {
+    border-radius: 15px;
+
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    /*Edit below for media*/
+    height: 400px;
+    max-height: 500px;
+    width: auto;
+    max-width: 350px;
+}
+
+.product-image {
+    width: 50%;
+    object-fit: cover;
+}
+
+.product-details {
+    padding: 20px;
+    flex: 1;
+}
+
+.product-title {
+    font-weight: bold;
+}
+
+.product-description,
+.product-ingredients,
+.product-price {
+    margin-bottom: 8px;
+}
+
+.product-btn-order {
+    background-color: #6b3e1f;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-btn-order:hover {
+    background-color: #54321a;
+}
+
+.product-btn-back {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #6b3e1f;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+
+.product-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    position: absolute;
+    bottom: 300px;
+    right: 650px;
+}
+
+.product-buttons2 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    position: absolute;
+    bottom: 120px;
+    right: 900px;
+}
+
+@media (min-width: 576px) {
+
+    .font-product-head{
+
+        font-family: myFont2 !important;
+        font-size: 2.4rem;
+        color: #532e0a;
+      }
+    
+      .font-product-subhead{
+    
+        font-family: myFont2 !important;
+        font-size: 1.2rem;
+        color: #532e0a;
+      }
+    
+      .font-product-bodytext{
+    
+        font-family: myFont2 !important;
+        font-size: 0.8rem;
+        color: #2d2d2d;
+      }
+    
+      .font-product-price{
+    
+        font-family: myFont2 !important;
+        font-size: 1rem;
+        color: #2d2d2d;
+      }
+    
+      .font-product-btn{
+    
+        font-family: myFont2 !important;
+        font-size: 1rem;
+        
+      }
+    
+    
+      .product-section {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        height: 970px;
+        background-image: url('img/cafe.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    
+    /* Dark overlay */
+    .product-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6); /* adjust opacity here */
+        z-index: 2;
+    }
+    
+    /* Make sure the content is above the overlay */
+    .product-card {
+        position: relative;
+        z-index: 3;
+    }
+    
+    .product-card {
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        /*Edit below for media*/
+        height: 400px;
+        max-height: 500px;
+        width: auto;
+        max-width: 450px;
+        margin-top: 40px;
+    }
+    
+    .product-image {
+        width: 50%;
+        object-fit: cover;
+    }
+    
+    .product-details {
+        padding: 20px;
+        flex: 1;
+    }
+    
+    .product-title {
+        font-weight: bold;
+    }
+    
+    .product-description,
+    .product-ingredients,
+    .product-price {
+        margin-bottom: 8px;
+    }
+    
+    .product-btn-order {
+        background-color: #6b3e1f;
+        color: white;
+        border-radius: 20px;
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    
+    .product-btn-order:hover {
+        background-color: #54321a;
+    }
+    
+    .product-btn-back {
+        display: inline-block;
+        margin-top: 10px;
+        background-color: #6b3e1f;
+        color: white;
+        border-radius: 20px;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+    
+    .product-buttons {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        position: absolute;
+        bottom: 300px;
+        right: 650px;
+    }
+    
+    .product-buttons2 {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        position: absolute;
+        bottom: 120px;
+        right: 900px;
+    }
+
+}
+@media (min-width: 768px) {
+    .font-product-head{
+
+        font-family: myFont2 !important;
+        font-size: 3rem;
+        color: #532e0a;
+      }
+    
+      .font-product-subhead{
+    
+        font-family: myFont2 !important;
+        font-size: 1.5rem;
+        color: #532e0a;
+      }
+    
+      .font-product-bodytext{
+    
+        font-family: myFont2 !important;
+        font-size: 1rem;
+        color: #2d2d2d;
+      }
+    
+      .font-product-price{
+    
+        font-family: myFont2 !important;
+        font-size: 1.5rem;
+        color: #2d2d2d;
+      }
+    
+      .font-product-btn{
+    
+        font-family: myFont2 !important;
+        font-size: 1.3rem;
+        margin-top: 40px;
+      }
+    
+    
+      .product-section {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        height: 970px;
+        background-image: url('img/cafe.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    
+    /* Dark overlay */
+    .product-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6); /* adjust opacity here */
+        z-index: 2;
+    }
+    
+    /* Make sure the content is above the overlay */
+    .product-card {
+        position: relative;
+        z-index: 3;
+    }
+    
+    .product-card {
+        border-radius: 15px;
+        max-width: 600px;
+        background-color: white;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        /*Edit below for media*/
+        height: 500px;
+        max-height: 800px;
+        width: auto;
+        max-width: 600px;
+        
+    }
+    
+    .product-image {
+        width: 50%;
+        object-fit: cover;
+    }
+    
+    .product-details {
+        padding: 20px;
+        flex: 1;
+    }
+    
+    .product-title {
+        font-weight: bold;
+    }
+    
+    .product-description,
+    .product-ingredients,
+    .product-price {
+        margin-bottom: 8px;
+    }
+    
+    .product-btn-order {
+        background-color: #6b3e1f;
+        color: white;
+        border-radius: 20px;
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    
+    .product-btn-order:hover {
+        background-color: #54321a;
+    }
+    
+    .product-btn-back {
+        display: inline-block;
+        margin-top: 10px;
+        background-color: #6b3e1f;
+        color: white;
+        border-radius: 20px;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+    
+    .product-buttons {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        position: absolute;
+        bottom: 300px;
+        right: 650px;
+    }
+    
+    .product-buttons2 {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        position: absolute;
+        bottom: 120px;
+        right: 900px;
+    }
+    }
+@media (min-width: 992px) {
+    .font-product-head{
+
+        font-family: myFont2 !important;
+        font-size: 4rem;
+        color: #532e0a;
+      }
+    
+      .font-product-subhead{
+    
+        font-family: myFont2 !important;
+        font-size: 2rem;
+        color: #532e0a;
+      }
+    
+      .font-product-bodytext{
+    
+        font-family: myFont2 !important;
+        font-size: 1.5rem;
+        color: #2d2d2d;
+      }
+    
+      .font-product-price{
+    
+        font-family: myFont2 !important;
+        font-size: 1.8rem;
+        color: #2d2d2d;
+      }
+    
+      .font-product-btn{
+    
+        font-family: myFont2 !important;
+        font-size: 1.5rem;
+        
+      }
+    
+    
+      .product-section {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        height: 970px;
+        background-image: url('img/cafe.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    
+    /* Dark overlay */
+    .product-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6); /* adjust opacity here */
+        z-index: 2;
+    }
+    
+    /* Make sure the content is above the overlay */
+    .product-card {
+        position: relative;
+        z-index: 3;
+    }
+    
+    
+    .product-card {
+        border-radius: 15px;
+        max-width: 600px;
+        background-color: white;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        /*Edit below for media*/
+        height: 600px;
+        max-height: 800px;
+        width: auto;
+        max-width: 1000px;
+        margin-top: -40px;
+        
+    }
+    
+    .product-image {
+        width: 50%;
+        object-fit: cover;
+    }
+    
+    .product-details {
+        padding: 20px;
+        flex: 1;
+    }
+    
+    .product-title {
+        font-weight: bold;
+    }
+    
+    .product-description,
+    .product-ingredients,
+    .product-price {
+        margin-bottom: 8px;
+    }
+    
+    .product-btn-order {
+        background-color: #6b3e1f;
+        color: white;
+        border-radius: 20px;
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    
+    .product-btn-order:hover {
+        background-color: #54321a;
+    }
+    
+    .product-btn-back {
+        display: inline-block;
+        margin-top: 10px;
+        background-color: #6b3e1f;
+        color: white;
+        border-radius: 20px;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+    
+    .product-buttons {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        position: absolute;
+        bottom: 300px;
+        right: 650px;
+    }
+    
+    .product-buttons2 {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        position: absolute;
+        bottom: 120px;
+        right: 900px;
+    }
+    }
+@media (min-width: 1200px) {
+.font-product-head{
+
+    font-family: myFont2 !important;
+    font-size: 4rem;
+    color: #532e0a;
+  }
+
+  .font-product-subhead{
+
+    font-family: myFont2 !important;
+    font-size: 2rem;
+    color: #532e0a;
+  }
+
+  .font-product-bodytext{
+
+    font-family: myFont2 !important;
+    font-size: 1.5rem;
+    color: #2d2d2d;
+  }
+
+  .font-product-price{
+
+    font-family: myFont2 !important;
+    font-size: 1.9rem;
+    color: #2d2d2d;
+  }
+
+  .font-product-btn{
+
+    font-family: myFont2 !important;
+    font-size: 1.6rem;
+    
+  }
+
+
+  .product-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    height: 970px;
+    background-image: url('img/cafe.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+/* Dark overlay */
+.product-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* adjust opacity here */
+    z-index: 2;
+}
+
+/* Make sure the content is above the overlay */
+.product-card {
+    position: relative;
+    z-index: 3;
+}
+
+.product-card {
+    border-radius: 15px;
+    max-width: 600px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    /*Edit below for media*/
+    height: 600px;
+    max-height: 800px;
+    width: auto;
+    max-width: 1000px;
+    margin-top: 20px;
+    
+}
+
+.product-image {
+    width: 50%;
+    object-fit: cover;
+}
+
+.product-details {
+    padding: 20px;
+    flex: 1;
+}
+
+.product-title {
+    font-weight: bold;
+}
+
+.product-description,
+.product-ingredients,
+.product-price {
+    margin-bottom: 8px;
+}
+
+.product-btn-order {
+    background-color: #6b3e1f;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-btn-order:hover {
+    background-color: #54321a;
+}
+
+.product-btn-back {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #6b3e1f;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+
+.product-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    position: absolute;
+    bottom: 300px;
+    right: 650px;
+}
+
+.product-buttons2 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    position: absolute;
+    bottom: 120px;
+    right: 900px;
+}
+}

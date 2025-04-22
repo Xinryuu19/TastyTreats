@@ -1,0 +1,492 @@
+
+.font-head-login{
+
+    font-family: myFont !important;
+    font-size: 2.5rem;
+    color: #532e0a;
+    border-bottom: 2px solid black; padding-left: 10px;
+    
+  }
+
+.font-text-login{
+
+    font-family: myFont !important;
+    font-size: 1.5rem;
+    color: black;
+    
+    
+  }
+
+  .font-liltext-login{
+
+    font-family: myFont !important;
+    font-size: 1.2rem;
+    color: black;
+    
+    
+  }
+
+  .font-textbox-login{
+
+    font-family: myFont !important;
+    font-size: 1.2rem;
+    color: gray;
+    
+    
+  }
+
+  .font-btn-login{
+
+    font-family: myFont !important;
+    font-size: 1.4rem;
+      
+    
+  }
+
+  /*Sign up Fonts*/
+  .font-head-signup{
+
+    font-family: myFont !important;
+    font-size: 2.5rem;
+    color: #532e0a;
+    border-bottom: 2px solid black; padding-left: 10px;
+    
+  }
+
+.font-text-signup{
+
+    font-family: myFont !important;
+    font-size: 1.2rem;
+    color: black;
+    
+    
+  }
+
+  .font-liltext-signup{
+
+    font-family: myFont !important;
+    font-size: 1rem;
+    color: black;
+    
+    
+  }
+
+  .font-textbox-signup{
+
+    font-family: myFont !important;
+    font-size: 1rem;
+    color: gray;
+    
+    
+  }
+
+  .font-btn-signup{
+
+    font-family: myFont !important;
+    font-size: 1rem;
+      
+    
+  }
+
+  /*NORMIES*/
+
+  .logo-login{
+
+    width: auto;
+    height: 80px;
+  }
+
+
+.container .row {
+    border-radius: 20px;
+}
+
+.container .col-md-6:first-child img {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.container .col-md-6:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+.login-platform {
+    position: relative; /* Ensures child pseudo-element is positioned correctly */
+    background-image: url("img/cafe.jpg");
+    background-size: cover; /* Ensures the image covers the element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    width: 100%;
+    margin-top: 20px;
+}
+
+.login-platform2 {
+    position: relative; /* Ensures child pseudo-element is positioned correctly */
+    
+    width: 100%;
+    margin-top: 50px;
+}
+.login-platform::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark transparency layer */
+    z-index: 1; /* Places it above the background */
+}
+
+/* Ensure other elements inside .login-platform are visible */
+.login-platform > * {
+    position: relative;
+    z-index: 2; /* Puts content above the dark overlay */
+}
+
+.login-background{
+width: 100%;
+height: 100%;
+}
+
+
+.signup-platform{
+padding: 110px;
+margin-top: -50px;
+
+}
+
+@media (min-width: 576px) {
+
+    .font-head-login{
+
+        font-family: myFont !important;
+        font-size: 2rem;
+        color: #532e0a;
+        border-bottom: 2px solid black; padding-left: 10px;
+        
+      }
+    
+    .font-text-login{
+    
+        font-family: myFont !important;
+        font-size: 1.2rem;
+        color: black;
+        
+        
+      }
+    
+      .font-liltext-login{
+    
+        font-family: myFont !important;
+        font-size: 1rem;
+        color: black;
+        
+        
+      }
+    
+      .font-textbox-login{
+    
+        font-family: myFont !important;
+        font-size: 1rem;
+        color: gray;
+        
+        
+      }
+    
+      .font-btn-login{
+    
+        font-family: myFont !important;
+        font-size: 1.2rem;
+          
+        
+      }
+    
+      /*Sign up Fonts*/
+      .font-head-signup{
+    
+        font-family: myFont !important;
+        font-size: 2.5rem;
+        color: #532e0a;
+        border-bottom: 2px solid black; padding-left: 10px;
+        
+      }
+    
+    .font-text-signup{
+    
+        font-family: myFont !important;
+        font-size: 1.2rem;
+        color: black;
+        
+        
+      }
+    
+      .font-liltext-signup{
+    
+        font-family: myFont !important;
+        font-size: 1rem;
+        color: black;
+        
+        
+      }
+    
+      .font-textbox-signup{
+    
+        font-family: myFont !important;
+        font-size: 1rem;
+        color: gray;
+        
+        
+      }
+    
+      .font-btn-signup{
+    
+        font-family: myFont !important;
+        font-size: 1rem;
+          
+        
+      }
+    
+      /*NORMIES*/
+    
+      .logo-login{
+    
+        width: auto;
+        height: 80px;
+      }
+    
+    
+    .container .row {
+        border-radius: 20px;
+    }
+    
+    .container .col-md-6:first-child img {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    
+    .container .col-md-6:last-child {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    
+    
+    .login-platform {
+        position: relative; /* Ensures child pseudo-element is positioned correctly */
+        background-image: url("img/cafe.jpg");
+        background-size: cover; /* Ensures the image covers the element */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents image repetition */
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .login-platform2 {
+        position: relative; /* Ensures child pseudo-element is positioned correctly */
+        
+        width: 100%;
+        margin-top: 50px;
+    }
+    .login-platform::before {
+        content: ""; /* Required for pseudo-elements */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Dark transparency layer */
+        z-index: 1; /* Places it above the background */
+    }
+    
+    /* Ensure other elements inside .login-platform are visible */
+    .login-platform > * {
+        position: relative;
+        z-index: 2; /* Puts content above the dark overlay */
+    }
+    
+    .login-background{
+    width: 100%;
+    height: 100%;
+    }
+    
+    
+    .signup-platform{
+    padding: 20px;
+    margin-top: 50px;
+    
+    }
+}
+
+@media (min-width: 768px) {
+    .font-head-login{
+
+        font-family: myFont !important;
+        font-size: 2rem;
+        color: #532e0a;
+        border-bottom: 2px solid black; padding-left: 10px;
+        
+      }
+    
+    .font-text-login{
+    
+        font-family: myFont !important;
+        font-size: 1.2rem;
+        color: black;
+        
+        
+      }
+    
+      .font-liltext-login{
+    
+        font-family: myFont !important;
+        font-size: 1rem;
+        color: black;
+        
+        
+      }
+    
+      .font-textbox-login{
+    
+        font-family: myFont !important;
+        font-size: 1rem;
+        color: gray;
+        
+        
+      }
+    
+      .font-btn-login{
+    
+        font-family: myFont !important;
+        font-size: 1.2rem;
+          
+        
+      }
+    
+      /*Sign up Fonts*/
+      .font-head-signup{
+    
+        font-family: myFont !important;
+        font-size: 2.5rem;
+        color: #532e0a;
+        border-bottom: 2px solid black; padding-left: 10px;
+        
+      }
+    
+    .font-text-signup{
+    
+        font-family: myFont !important;
+        font-size: 1.2rem;
+        color: black;
+        
+        
+      }
+    
+      .font-liltext-signup{
+    
+        font-family: myFont !important;
+        font-size: 1rem;
+        color: black;
+        
+        
+      }
+    
+      .font-textbox-signup{
+    
+        font-family: myFont !important;
+        font-size: 1rem;
+        color: gray;
+        
+        
+      }
+    
+      .font-btn-signup{
+    
+        font-family: myFont !important;
+        font-size: 1rem;
+          
+        
+      }
+    
+      /*NORMIES*/
+    
+      .logo-login{
+    
+        width: auto;
+        height: 80px;
+      }
+    
+    
+    .container .row {
+        border-radius: 20px;
+    }
+    
+    .container .col-md-6:first-child img {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    
+    .container .col-md-6:last-child {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    
+    
+    .login-platform {
+        position: relative; /* Ensures child pseudo-element is positioned correctly */
+        background-image: url("img/cafe.jpg");
+        background-size: cover; /* Ensures the image covers the element */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents image repetition */
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .login-platform2 {
+        position: relative; /* Ensures child pseudo-element is positioned correctly */
+        width: 1300px !important;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .login-platform::before {
+        content: ""; /* Required for pseudo-elements */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Dark transparency layer */
+        z-index: 1; /* Places it above the background */
+    }
+    
+    /* Ensure other elements inside .login-platform are visible */
+    .login-platform > * {
+        position: relative;
+        z-index: 2; /* Puts content above the dark overlay */
+    }
+    
+    .login-background{
+    width: 100%;
+    height: 100%;
+    }
+    
+    
+    .signup-platform{
+    padding: 10px;
+    margin-top: 50px;
+    
+    }
+
+    .sign-up-real {
+        width: 1300px !important;
+        max-width: 100%; /* Prevents the element from exceeding its parent’s width */
+        height: 750px;
+    }
+    
+    
+}
+
+

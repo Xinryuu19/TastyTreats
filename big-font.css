@@ -1,0 +1,403 @@
+.font-product-head2{
+
+    font-family: myFont2 !important;
+    font-size: 1.5rem;
+    color: #532e0a;
+  }
+
+  .font-product-head3{
+
+    font-family: myFont2 !important;
+    font-size: 1.3rem;
+    color: #532e0a;
+  }
+
+  .font-product-head4{
+
+    font-family: myFont2 !important;
+    font-size: 1rem;
+    color: #532e0a;
+  }
+
+  .font-product-subhead{
+
+    font-family: myFont2 !important;
+    font-size: 1rem;
+    color: #532e0a;
+  }
+
+  .font-product-subhead3{
+
+    font-family: myFont2 !important;
+    font-size: 0.9rem;
+    color: #532e0a;
+  }
+
+  .font-product-subhead4{
+
+    font-family: myFont2 !important;
+    font-size: 0.7rem;
+    color: #532e0a;
+  }
+
+  .font-product-bodytext{
+
+    font-family: myFont2 !important;
+    font-size: 0.7rem;
+    color: #2d2d2d;
+  }
+
+  .font-product-bodytext3{
+
+    font-family: myFont2 !important;
+    font-size: 0.7rem;
+    color: #2d2d2d;
+  }
+
+  .font-product-price{
+
+    font-family: myFont2 !important;
+    font-size: 1rem;
+    color: #2d2d2d;
+  }
+
+  .font-product-btn2{
+
+    font-family: myFont2 !important;
+    font-size: 0.7rem;
+    
+  }
+  .font-product-btn3{
+
+    font-family: myFont2 !important;
+    font-size: 0.8rem;
+    
+  }
+
+  .font-product-btn4{
+
+    font-family: myFont2 !important;
+    font-size: 0.7rem;
+    
+  }
+
+
+
+
+
+@media (min-width: 576px) {
+    .font-product-head2{
+
+        font-family: myFont2 !important;
+        font-size: 2.1rem;
+        color: #532e0a;
+      }
+
+      .font-product-head3{
+
+        font-family: myFont2 !important;
+        font-size: 2.1rem;
+        color: #532e0a;
+      }
+
+      .font-product-head4{
+
+        font-family: myFont2 !important;
+        font-size: 1.8rem;
+        color: #532e0a;
+      }
+    
+      .font-product-subhead{
+    
+        font-family: myFont2 !important;
+        font-size: 1.2rem;
+        color: #532e0a;
+      }
+
+      .font-product-subhead3{
+    
+        font-family: myFont2 !important;
+        font-size: 1.2rem;
+        color: #532e0a;
+      }
+
+      .font-product-subhead4{
+    
+        font-family: myFont2 !important;
+        font-size: 1.2rem;
+        color: #532e0a;
+      }
+    
+      .font-product-bodytext{
+    
+        font-family: myFont2 !important;
+        font-size: 0.8rem;
+        color: #2d2d2d;
+      }
+
+      .font-product-bodytext3{
+    
+        font-family: myFont2 !important;
+        font-size: 0.8rem;
+        color: #2d2d2d;
+      }
+    
+      .font-product-price{
+    
+        font-family: myFont2 !important;
+        font-size: 1rem;
+        color: #2d2d2d;
+      }
+    
+      .font-product-btn2{
+    
+        font-family: myFont2 !important;
+        font-size: 1rem;
+        
+      }
+
+      .font-product-btn3{
+    
+        font-family: myFont2 !important;
+        font-size: 1rem;
+        
+      }
+
+      .font-product-btn4{
+    
+        font-family: myFont2 !important;
+        font-size: 0.8rem;
+        
+      }
+
+}
+@media (min-width: 768px) {
+    .font-product-head2{
+
+        font-family: myFont2 !important;
+        font-size: 3rem;
+        color: #532e0a;
+      }
+
+      .font-product-head3{
+
+        font-family: myFont2 !important;
+        font-size: 2rem;
+        color: #532e0a;
+      }
+
+      .font-product-head4{
+
+        font-family: myFont2 !important;
+        font-size: 2rem;
+        color: #532e0a;
+      }
+    
+      .font-product-subhead{
+    
+        font-family: myFont2 !important;
+        font-size: 1.5rem;
+        color: #532e0a;
+      }
+
+      .font-product-subhead3{
+    
+        font-family: myFont2 !important;
+        font-size: 1.7rem;
+        color: #532e0a;
+      }
+
+      .font-product-subhead4{
+    
+        font-family: myFont2 !important;
+        font-size: 1.5rem;
+        color: #532e0a;
+      }
+    
+      .font-product-bodytext{
+    
+        font-family: myFont2 !important;
+        font-size: 1rem;
+        color: #2d2d2d;
+      }
+
+      .font-product-bodytext3{
+    
+        font-family: myFont2 !important;
+        font-size: 1rem;
+        color: #2d2d2d;
+      }
+    
+      .font-product-price{
+    
+        font-family: myFont2 !important;
+        font-size: 1.5rem;
+        color: #2d2d2d;
+      }
+    
+      .font-product-btn2{
+    
+        font-family: myFont2 !important;
+        font-size: 1.3rem;
+        margin-top: 40px;
+      }
+     
+      .font-product-btn3{
+    
+        font-family: myFont2 !important;
+        font-size: 1.3rem;
+        margin-top: 40px;
+      }
+
+      .font-product-btn4{
+    
+        font-family: myFont2 !important;
+        font-size: 1.3rem;
+        margin-top: 40px;
+      }
+    
+    
+}
+@media (min-width: 992px) {
+    .font-product-head2{
+
+        font-family: myFont2 !important;
+        font-size: 4rem;
+        color: #532e0a;
+      }
+      .font-product-head3{
+
+        font-family: myFont2 !important;
+        font-size: 3.6rem;
+        color: #532e0a;
+      }
+
+      .font-product-head4{
+
+        font-family: myFont2 !important;
+        font-size: 3rem;
+        color: #532e0a;
+      }
+
+      .font-product-subhead{
+    
+        font-family: myFont2 !important;
+        font-size: 1.8rem;
+        color: #532e0a;
+      }
+
+      .font-product-subhead3{
+    
+        font-family: myFont2 !important;
+        font-size: 2rem;
+        color: #532e0a;
+      }
+    
+      .font-product-bodytext{
+    
+        font-family: myFont2 !important;
+        font-size: 1.5rem;
+        color: #2d2d2d;
+      }
+
+      .font-product-bodytext3{
+    
+        font-family: myFont2 !important;
+        font-size: 1.5rem;
+        color: #2d2d2d;
+      }
+    
+      .font-product-price{
+    
+        font-family: myFont2 !important;
+        font-size: 1.8rem;
+        color: #2d2d2d;
+      }
+    
+      .font-product-btn2{
+    
+        font-family: myFont2 !important;
+        font-size: 1.5rem;
+        
+      }
+
+      .font-product-btn3{
+    
+        font-family: myFont2 !important;
+        font-size: 1.5rem;
+        
+      }
+    
+}
+@media (min-width: 1200px) {
+    .font-product-head2{
+
+        font-family: myFont2 !important;
+        font-size: 4rem;
+        color: #532e0a;
+      } 
+      
+    .font-product-head3{
+
+        font-family: myFont2 !important;
+        font-size: 3.2rem;
+        color: #532e0a;
+      }
+
+      .font-product-head4{
+
+        font-family: myFont2 !important;
+        font-size: 3rem;
+        color: #532e0a;
+      }
+
+    
+    
+      .font-product-subhead{
+    
+        font-family: myFont2 !important;
+        font-size: 2rem;
+        color: #532e0a;
+      }
+
+      .font-product-subhead3{
+    
+        font-family: myFont2 !important;
+        font-size: 2rem;
+        color: #532e0a;
+      }
+    
+      .font-product-bodytext{
+    
+        font-family: myFont2 !important;
+        font-size: 1.5rem;
+        color: #2d2d2d;
+      }
+
+      .font-product-bodytext3{
+    
+        font-family: myFont2 !important;
+        font-size: 1.5rem;
+        color: #2d2d2d;
+      }
+    
+      .font-product-price{
+    
+        font-family: myFont2 !important;
+        font-size: 1.9rem;
+        color: #2d2d2d;
+      }
+    
+      .font-product-btn2{
+    
+        font-family: myFont2 !important;
+        font-size: 1.6rem;
+        
+      }
+      .font-product-btn3{
+    
+        font-family: myFont2 !important;
+        font-size: 1.6rem;
+        
+      }
+}

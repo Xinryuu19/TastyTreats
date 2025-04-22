@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Strawberry Popping Boba</title>
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="product.css">
+  <link rel="stylesheet" href="big-font.css">
+  <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-xl bg-dark px-4">
+  <div class="container-fluid">
+    <a class="navbar-brand font-logo d-flex align-items-center text-white fw-bold" href="homepage-1.html">
+      <img src="img/logo.png" alt="Logo" width="40" height="40" class="me-2 ">
+      Tasty Treats
+    </a>
+
+    <!-- FontAwesome Navbar Toggler (Visible only on Small Screens) -->
+    <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars text-white fs-3"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto d-flex align-items-center gap-3">
+
+        <li class="nav-item"><a class="font-nav nav-link text-white font-nav" href="homepage-1.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white font-nav" href="about-us.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link text-white font-nav" href="services.html">Services</a></li>
+
+        <!-- Dropdown for Menu -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active text-white font-nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item font-product" href="menu-snacks.html">Snacks</a></li>
+            <li><a class="dropdown-item font-product" href="menu-drinks.html">Drinks</a></li>
+            <li><a class="dropdown-item font-product" href="menu-desserts.html">Desserts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link text-white font-nav" href="contacts.html">Contacts</a></li>
+      </ul>
+
+      <!-- Search Bar -->
+      <form class="d-flex me-2">
+        <input class="form-control me-2 font-search search-input" type="search" placeholder="Search..." aria-label="Search">
+        <button class="btn btn-outline-light font-search search-btn" type="submit">Search</button>
+      </form>
+
+  
+
+      <!-- Cart Icon -->
+      <a href="order.html" class="btn btn-custom rounded-pill px-3 py-2">
+        <i class="fa-solid fa-utensils fs-4"></i>
+      </a>
+
+
+
+      <!-- Login Button with margin start (ms-3) -->
+      <a href="login.html" class="btn btn-custom text-dark rounded-pill font-nav px-3 ms-3">
+        <i class="fa-solid fa-circle-user me-2"></i> Login
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- Product Section -->
+<section class="product-section py-5">
+    <div class="product-card animate-slide-in">
+      <img src="img/Products/Drinks/strawberry.jpg" alt="Strawberry Popping Boba" class="product-image">
+      <div class="product-details">
+        <h4 class="product-title font-product-head4 animate-slide-in2">Strawberry Popping Boba</h4>
+  
+        <h4 class="product-description-title font-product-subhead4 animate-slide-in2">Description:</h4>
+        <p class="product-description font-product-bodytext3 animate-slide-in">A sweet and fruity strawberry drink topped with fun and juicy popping boba—refreshing with every sip!</p>
+  
+        <h4 class="product-ingredients-title font-product-subhead4 animate-slide-in2">Ingredients:</h4>
+        <p class="product-ingredients font-product-bodytext3 animate-slide-in">Strawberry Syrup, Milk, Popping Boba, Ice, Cream, Sugar Syrup.</p>
+  
+        <h4 class="product-price-title font-product-subhead4 animate-slide-in2">Price:</h4>
+        <p class="product-price font-product-price animate-slide-in">75 PHP (LARGE)</p>
+  
+        <button 
+          class="product-btn-order font-product-btn4 animate-slide-in2" 
+          onclick="window.location.href='order.html'">
+          Order Now
+        </button>
+        
+        <button 
+          class="product-btn-back font-product-btn4 animate-slide-in2" 
+          onclick="window.location.href='menu-snacks.html'">
+          &#8592; Back
+        </button>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+      <div class="footer-section font-footer">
+          <p class="font-footer-head">Business</p>
+          <p><i class="fa-solid fa-angle-right"></i> <a href="about-us.html">About Us</a></p>
+          <p><i class="fa-solid fa-angle-right"></i> <a href="homepage-1.html">Products</a></p>
+          <p><i class="fa-solid fa-angle-right"></i> <a href="order.html">Order</a></p>
+          <p><i class="fa-solid fa-angle-right"></i> <a href="privacy.html">Privacy Policy</a></p>
+          <p><i class="fa-solid fa-angle-right"></i> <a href="terms.html">Terms & Conditions</a></p>
+      </div>
+      <div class="footer-section font-footer">
+          <p class="font-footer-head">Business Hours</p>
+          <p> Monday - Friday: 7:00 AM - 9:00 PM</p>
+          <p> Saturday - Sunday: 7:00 AM - 9:00 PM</p>
+      </div>
+      <div class="footer-section font-footer">
+          <p class="font-footer-head">Location</p>
+          <p><i class="fas fa-map-marker-alt"></i> San Nicolas Pob, Concepcion, Tarlac</p>
+          <p><i class="fas fa-phone"></i> 09062448785</p>
+          <p><i class="fas fa-envelope"></i> TastyTreats@gmail.com</p>
+      </div>
+      <div class="footer-section font-footer">
+          <p class="font-footer-head">Suggestions</p>
+          <p>We are open for feedback, thank you for your suggestions.</p>
+          <div class="suggestion-box">
+              <input type="text" placeholder="Your suggestion...">
+              <button>Send</button>
+          </div>
+      </div>
+  </div>
+  <div class="copyright">2025 @TastyTreats | All Rights Reserved</div>
+</footer>
+
+<script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/0f0a91d8ac.js" crossorigin="anonymous"></script>
+</body>
+</html>

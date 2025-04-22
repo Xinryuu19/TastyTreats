@@ -1,0 +1,154 @@
+/* Service Section Base Styles */
+.services-section {
+  background-color: #f5f5dc !important; /* Beige background color */
+}
+.services-section .font-service-head {
+  margin-top: 100px !important;
+  color: #532e0a;
+}
+
+.services-section .font-service-head-2 {
+  margin-top: 0px !important;
+  color: #532e0a;
+}
+
+.service-box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 2rem;
+  height: 100%;
+}
+
+.transition-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.text-pink {
+  color: #ff69b4;
+}
+
+.font-content2-2{
+
+  font-family: myFont !important;
+  font-size: 1.3rem;
+  color: #532e0a;
+}
+
+.font-service-head2-2{
+  font-family: myFont !important;
+  font-size: 1.3rem;
+  color: #532e0a;
+}
+
+.font-service-head2{
+  font-family: myFont !important;
+  font-size: 1.3rem;
+  color: #532e0a;
+
+  
+
+}
+
+.font-service-head2-2{
+  font-family: myFont !important;
+  font-size: 1.3rem;
+  color: #532e0a;
+}
+/* Media Queries */
+
+/* Extra Small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .font-service-head {
+    font-size: 2.2rem;
+    margin-top: 40px;
+  }
+
+  .font-service-head-2 {
+    font-size: 2.2rem;
+  }
+  
+  .service-box {
+    padding: 1.5rem;
+  }
+  
+  .service-box i {
+    font-size: 2rem !important;
+  }
+  
+  .service-box h5 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .font-service-head {
+    font-size: 2.5rem;
+    margin-top: 50px;
+  }
+  .font-service-head-2 {
+    font-size: 2.5rem;
+  }
+  
+  .service-box i {
+    font-size: 2.3rem !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .font-service-head {
+    font-size: 2.8rem;
+    margin-top: 60px;
+  }
+
+  .font-service-head-2 {
+    font-size: 2.8rem;
+  }
+  
+  .service-box {
+    padding: 1.8rem;
+  }
+  
+  .service-box i {
+    font-size: 2.5rem !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .font-service-head {
+    font-size: 3rem;
+    margin-top: 70px;
+  }
+
+  .font-service-head-2 {
+    font-size: 3rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .font-service-head {
+    font-size: 3.4rem;
+    margin-top: 80px;
+  }
+  .font-service-head-2 {
+    font-size: 3.4rem;
+  }
+  
+  .service-box {
+    padding: 2rem;
+  }
+}
+
+/* Add responsive margin/padding for service section */
+@media (max-width: 767.98px) {
+  .services-section {
+    padding: 2rem 0 !important;
+  }
+  
+  .transition-hover:hover {
+    transform: translateY(-5px); /* Smaller hover effect on mobile */
+  }
+}

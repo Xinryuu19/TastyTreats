@@ -1,0 +1,76 @@
+.font-privacy-head{
+
+  font-family: myFont2 !important;
+  font-size: 2rem;
+  color: #532e0a;
+}
+
+.font-subhead-head{
+
+  font-family: myFont2 !important;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.font-body-text{
+
+  font-family: myFont2 !important;
+  font-size: 1rem;
+  color: black;
+}
+
+.privacy-container{
+    color: black;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .privacy-background{
+    background-color: black;
+    
+    
+  }
+
+  @media (min-width: 1200px){
+    .font-privacy-head{
+
+      font-family: myFont2 !important;
+      font-size: 2rem;
+      color: #532e0a;
+    }
+    
+    .font-subhead-head{
+    
+      font-family: myFont2 !important;
+      font-size: 1.5rem;
+      color: black;
+    }
+    
+    .font-body-text{
+    
+      font-family: myFont2 !important;
+      font-size: 1rem;
+      color: black;
+    }
+    
+    .privacy-container{
+        color: black;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: 80px;
+        
+      }
+    
+      .privacy-background{
+        background-color: black;
+        
+        
+      }
+
+
+  }
+  
+  

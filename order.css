@@ -1,0 +1,229 @@
+.nav-pills .nav-link {
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    margin-bottom: 10px;
+    font-family: myFont !important;
+  }
+  .nav-pills .nav-link.active {
+    background-color: #532e0a;
+  }
+
+/* Base Styles for Transparent Order Form */
+.transparent-order-form {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.order-title {
+  color: #532e0a;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  text-align: left;
+  font-family: myFont2 !important;
+ 
+
+}
+
+.order-input {
+  border-radius: 4px;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: none;
+  background-color: #fff;
+  margin-bottom: 5px;
+  width: 100%;
+  font-family: myFont2 !important;
+}
+
+.order-input::placeholder {
+  color: #6c757d;
+  font-family: myFont2 !important;
+}
+
+.order-input:focus {
+  box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.3);
+  border-color: #532e0a;
+  outline: none;
+}
+
+.order-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  background-color: #532e0a;
+  border-radius: 4px;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-family: myFont2 !important;
+}
+
+.order-btn:hover {
+  background-color: #157347;
+  transform: translateY(-2px);
+}
+
+.menu-logo{
+margin-top: 1px;
+
+}
+
+/* Small devices (sm) - phones (576px and up) */
+@media (min-width: 576px) {
+  .transparent-order-form {
+    padding: 22px;
+    max-width: 540px;
+  }
+  
+  .order-title {
+    font-size: 1.6rem;
+    margin-bottom: 22px;
+  }
+  
+  .order-input {
+    padding: 10px 14px;
+    font-size: 15px;
+  }
+  
+  .order-btn {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+/* Medium devices (md) - tablets (768px and up) */
+@media (min-width: 768px) {
+  .transparent-order-form {
+    padding: 25px;
+    max-width: 720px;
+  }
+  
+  .order-title {
+    font-size: 1.7rem;
+    margin-bottom: 25px;
+  }
+  
+  .order-input {
+    padding: 12px 15px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .order-btn {
+    padding: 12px;
+    font-size: 17px;
+    margin-top: 15px;
+  }
+}
+
+/* Large devices (lg) - desktops (992px and up) */
+@media (min-width: 992px) {
+
+  .font-products-title{
+    font-family: myFont !important;
+    font-size: 1.5rem;
+    color: #532e0a;
+
+}
+
+.font-products-description{
+    font-family: myFont !important;
+    font-size: 0.8rem;
+    color: black;
+
+}
+
+  .transparent-order-form {
+    padding: 30px;
+    max-width: 450px; /* More limited width on sidebar */
+    margin-top: 0px;
+  }
+  
+  .order-title {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+  
+  .order-input {
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+  
+  .order-btn {
+    padding: 12px;
+    font-size: 18px;
+  }
+  
+  /* If the form is in a sidebar */
+  .col-lg-4 .transparent-order-form {
+    max-width: 100%;
+  }
+}
+
+/* Extra large devices (xl) - large desktops (1200px and up) */
+@media (min-width: 1200px) {
+  .font-products-title{
+    font-family: myFont !important;
+    font-size: 2rem;
+    color: #532e0a;
+
+}
+
+.font-products-description{
+    font-family: myFont !important;
+    font-size: 1rem;
+    color: black;
+
+}
+  .transparent-order-form {
+    padding: 30px;
+    max-width: 550px;
+  }
+  
+  .order-title {
+    font-size: 1.8rem;
+  }
+  
+  .order-input {
+    padding: 14px 16px;
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .order-btn {
+    padding: 14px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  /* If the form is in a sidebar */
+  .col-lg-4 .transparent-order-form {
+    max-width: 100%;
+  }
+}
+
+
+/* Optional: Adding background image to form container */
+.order-section {
+  background-image: url('img/cafe.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+}
+
+/* Sticky behavior for sidebar form on large screens */
+@media (min-width: 992px) {
+  .sticky-form {
+    position: sticky;
+    top: 20px;
+  }
+}

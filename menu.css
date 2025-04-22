@@ -1,0 +1,546 @@
+@keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-slide-in {
+    animation: slideInLeft 1s ease-out forwards;
+  }
+  
+.font-menu-head{
+
+    font-family: myFont !important;
+    font-size: 4rem;
+    color: #532e0a;
+    margin-top: 13px;
+  }
+
+  .font-menu-part{
+
+    font-family: myFont !important;
+    font-size: 2rem;
+    color: black;
+  }
+
+.font-products-title{
+    font-family: myFont !important;
+    font-size: 1.6rem;
+    color: #532e0a;
+
+}
+
+.font-products-description{
+    font-family: myFont !important;
+    font-size: 0.8rem;
+    color: black;
+
+}
+
+.font-products-see{
+    font-family: myFont !important;
+    font-size: 1rem;
+    color: white;
+
+}
+
+.img-menu{
+    width: 250px; height: auto; object-fit: cover;
+}
+
+
+
+
+
+.content-menu {
+    min-height: 970px; /* Adjust this value if needed */
+    background-color: beige;
+    text-align: center;
+    width: 100%; /* Ensure it spans the full width */
+    padding: 50px 0; /* Adds padding for better spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensures content is centered */
+    margin-top: 90px;
+   
+}
+
+.content-menu2 {
+  min-height: 970px; /* Adjust this value if needed */
+  background-color: beige;
+  text-align: center;
+  width: 100%; /* Ensure it spans the full width */
+  padding: 50px 0; /* Adds padding for better spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Ensures content is centered */
+ 
+}
+
+.menu-logo {
+    width: 90px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%; /* Makes it round */
+    margin-left: -100px;
+    margin-top: -40px;
+}
+
+.btn-dark {
+    width: 150px;
+}
+
+/* Ensure all cards have same height */
+.card {
+    height: 200px; /* You can adjust this height as needed */
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Fix the image width and ensure consistent behavior */
+  .card-img-left {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Make sure card body fills remaining space */
+  .card-body {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .img-menu {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+
+  
+  
+@media (min-width: 576px) {
+
+    .font-menu-head{
+
+        font-family: myFont !important;
+        font-size: 4rem;
+        color: #532e0a;
+        margin-top: 13px;
+      }
+    
+      .font-menu-part{
+    
+        font-family: myFont !important;
+        font-size: 2rem;
+        color: black;
+      }
+    
+    .font-products-title{
+        font-family: myFont !important;
+        font-size: 2rem;
+        color: #532e0a;
+    
+    }
+    
+    .font-products-description{
+        font-family: myFont !important;
+        font-size: 1rem;
+        color: black;
+    
+    }
+    
+    .font-products-see{
+        font-family: myFont !important;
+        font-size: 1rem;
+        color: white;
+    
+    }
+    
+    .img-menu{
+        width: 250px; height: auto; object-fit: cover;
+    }
+    
+    
+    
+    
+    
+    .content-menu {
+        min-height: 970px; /* Adjust this value if needed */
+        background-color: beige;
+        text-align: center;
+        width: 100%; /* Ensure it spans the full width */
+        padding: 50px 0; /* Adds padding for better spacing */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Ensures content is centered */
+        margin-top: 90px;
+       
+    }
+    
+    .menu-logo {
+        width: 100px; /* Adjust size as needed */
+        height: auto;
+        border-radius: 50%; /* Makes it round */
+        margin-left: -100px;
+        margin-top: -60px;
+    }
+    
+    .btn-dark {
+        width: 150px;
+    }
+    
+    /* Ensure all cards have same height */
+    .card {
+        height: 200px; /* You can adjust this height as needed */
+        display: flex;
+        flex-direction: row;
+      }
+      
+      /* Fix the image width and ensure consistent behavior */
+      .card-img-left {
+        width: 150px;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      /* Make sure card body fills remaining space */
+      .card-body {
+        flex: 1;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+      }
+      
+      .img-menu {
+        width: 150px;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+    
+}
+      
+
+@media (min-width: 768px) {
+    .font-menu-head{
+
+        font-family: myFont !important;
+        font-size: 4rem;
+        color: #532e0a;
+        margin-top: 13px;
+      }
+    
+      .font-menu-part{
+    
+        font-family: myFont !important;
+        font-size: 2rem;
+        color: black;
+      }
+    
+    .font-products-title{
+        font-family: myFont !important;
+        font-size: 1.5rem;
+        color: #532e0a;
+    
+    }
+    
+    .font-products-description{
+        font-family: myFont !important;
+        font-size: 0.8rem;
+        color: black;
+    
+    }
+    
+    .font-products-see{
+        font-family: myFont !important;
+        font-size: 1rem;
+        color: white;
+    
+    }
+    
+    .img-menu{
+        width: 250px; height: auto; object-fit: cover;
+    }
+    
+    
+    
+    
+    
+    .content-menu {
+        min-height: 970px; /* Adjust this value if needed */
+        background-color: beige;
+        text-align: center;
+        width: 100%; /* Ensure it spans the full width */
+        padding: 50px 0; /* Adds padding for better spacing */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Ensures content is centered */
+        margin-top: 90px;
+       
+    }
+    
+    .menu-logo {
+        width: 100px; /* Adjust size as needed */
+        height: auto;
+        border-radius: 50%; /* Makes it round */
+        margin-left: -100px;
+        margin-top: -60px;
+    }
+    
+    .btn-dark {
+        width: 150px;
+    }
+    
+    /* Ensure all cards have same height */
+    .card {
+        height: 200px; /* You can adjust this height as needed */
+        display: flex;
+        flex-direction: row;
+      }
+      
+      /* Fix the image width and ensure consistent behavior */
+      .card-img-left {
+        width: 150px;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      /* Make sure card body fills remaining space */
+      .card-body {
+        flex: 1;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+      }
+      
+      .img-menu {
+        width: 150px;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+    
+    
+      
+}
+
+@media (min-width: 992px) {
+    .font-menu-head{
+
+        font-family: myFont !important;
+        font-size: 4rem;
+        color: #532e0a;
+        margin-top: 13px;
+      }
+    
+      .font-menu-part{
+    
+        font-family: myFont !important;
+        font-size: 2rem;
+        color: black;
+      }
+    
+    .font-products-title{
+        font-family: myFont !important;
+        font-size: 2rem;
+        color: #532e0a;
+    
+    }
+    
+    .font-products-description{
+        font-family: myFont !important;
+        font-size: 1rem;
+        color: black;
+    
+    }
+    
+    .font-products-see{
+        font-family: myFont !important;
+        font-size: 1rem;
+        color: white;
+    
+    }
+    
+    .img-menu{
+        width: 250px; height: auto; object-fit: cover;
+    }
+    
+    
+    
+    
+    
+    .content-menu {
+        min-height: 970px; /* Adjust this value if needed */
+        background-color: beige;
+        text-align: center;
+        width: 100%; /* Ensure it spans the full width */
+        padding: 50px 0; /* Adds padding for better spacing */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Ensures content is centered */
+        margin-top: 90px;
+       
+    }
+    
+    .menu-logo {
+        width: 100px; /* Adjust size as needed */
+        height: auto;
+        border-radius: 50%; /* Makes it round */
+        margin-left: -100px;
+        margin-top: -60px;
+    }
+    
+    .btn-dark {
+        width: 150px;
+    }
+    
+    /* Ensure all cards have same height */
+    .card {
+        height: 200px; /* You can adjust this height as needed */
+        display: flex;
+        flex-direction: row;
+      }
+      
+      /* Fix the image width and ensure consistent behavior */
+      .card-img-left {
+        width: 150px;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      /* Make sure card body fills remaining space */
+      .card-body {
+        flex: 1;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+      }
+      
+      .img-menu {
+        width: 150px;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+    
+    
+      
+}
+
+@media (min-width: 1200px) {
+    .font-menu-head{
+
+        font-family: myFont !important;
+        font-size: 4rem;
+        color: #532e0a;
+        margin-top: 13px;
+      }
+    
+      .font-menu-part{
+    
+        font-family: myFont !important;
+        font-size: 2rem;
+        color: black;
+      }
+    
+    .font-products-title{
+        font-family: myFont !important;
+        font-size: 2rem;
+        color: #532e0a;
+    
+    }
+    
+    .font-products-description{
+        font-family: myFont !important;
+        font-size: 1rem;
+        color: black;
+    
+    }
+    
+    .font-products-see{
+        font-family: myFont !important;
+        font-size: 1rem;
+        color: white;
+    
+    }
+    
+    .img-menu{
+        width: 250px; height: auto; object-fit: cover;
+    }
+    
+    
+    
+    
+    
+    .content-menu {
+        min-height: 970px; /* Adjust this value if needed */
+        background-color: beige;
+        text-align: center;
+        width: 100%; /* Ensure it spans the full width */
+        padding: 50px 0; /* Adds padding for better spacing */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Ensures content is centered */
+        margin-top: 90px;
+       
+    }
+    
+    .menu-logo {
+        width: 100px; /* Adjust size as needed */
+        height: auto;
+        border-radius: 50%; /* Makes it round */
+        margin-left: -100px;
+        margin-top: -60px;
+    }
+    
+    .btn-dark {
+        width: 150px;
+    }
+    
+    /* Ensure all cards have same height */
+    .card {
+        height: 200px; /* You can adjust this height as needed */
+        display: flex;
+        flex-direction: row;
+      }
+      
+      /* Fix the image width and ensure consistent behavior */
+      .card-img-left {
+        width: 150px;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      /* Make sure card body fills remaining space */
+      .card-body {
+        flex: 1;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+      }
+      
+      .img-menu {
+        width: 150px;
+        height: 100%;
+        object-fit: cover;
+      }
+}
+

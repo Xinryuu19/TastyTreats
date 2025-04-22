@@ -1,0 +1,243 @@
+/* Base styles for contact section */
+.contact-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/cafe.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white !important;
+  min-height: 830px;
+  padding: 50px 20px;
+  margin-top: 100px;
+}
+
+/* Logo circle styling */
+.logo-circle {
+  width: 280px;
+  height: 280px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.logo-circle img {
+  max-width: 90%;
+  height: auto;
+}
+
+/* Form input styling */
+.contact-section input,
+.contact-section textarea {
+  border-radius: 10px;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 193, 7, 0.8);
+  background-color: white;
+}
+
+/* Font styling */
+.font-head-contact {
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: myFont2 !important;
+  color: #f5f5dc;
+}
+
+.font-subhead-contact {
+  font-family: myFont2 !important;
+  color: #f5f5dc;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.font-placeholder-contact input::placeholder,
+.font-placeholder-contact textarea::placeholder {
+  font-family: myFont2 !important;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.font-btn-contact {
+  font-family: myFont2 !important;
+  color: #f5f5dc;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-contact {
+  background-color: #532e0a;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-contact:hover {
+  background-color: #f5f5dc;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Media query for Extra Small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .contact-section {
+    padding: 30px 15px;
+    margin-top: 50px;
+    
+    
+
+  }
+  
+  .logo-circle {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .font-head-contact {
+    font-size: 1.5rem;
+  }
+  
+  .font-subhead-contact {
+    font-size: 1rem;
+  }
+  
+  .font-placeholder-contact input::placeholder,
+  .font-placeholder-contact textarea::placeholder {
+    font-size: 0.8rem;
+  }
+  
+  .font-btn-contact {
+    font-size: 0.9rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contact-section {
+    padding: 40px 20px;
+    margin-top: 60px;
+  }
+  
+  .logo-circle {
+    width: 220px;
+    height: 220px;
+  }
+  
+  .font-head-contact {
+    font-size: 1.7rem;
+  }
+  
+  .font-subhead-contact {
+    font-size: 1.1rem;
+  }
+  
+  .font-btn-contact {
+    font-size: 0.95rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact-section {
+    padding: 50px 25px;
+    margin-top: 70px;
+    height: 800px;
+    height: 1010px;
+  }
+  
+  .logo-circle {
+    width: 350px;
+    height: 350px;
+  }
+  
+  .font-head-contact {
+    font-size: 3rem;
+  }
+  
+  .font-subhead-contact {
+    font-size: 1.7rem;
+  }
+  
+  .font-placeholder-contact input::placeholder,
+  .font-placeholder-contact textarea::placeholder {
+    font-size: 1.5rem;
+  }
+
+  .font-btn-contact {
+    font-size: 1.5rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .contact-section {
+    padding: 60px 30px;
+    margin-top: 100px;
+    min-height: 500px;
+    height: auto;
+  
+  }
+  
+  .logo-circle {
+    width: 360px;
+    height: 360px;
+  }
+  
+  .font-head-contact {
+    font-size: 3.5rem;
+  }
+  
+  .font-subhead-contact {
+    font-size: 1.8rem;
+  }
+
+  .font-placeholder-contact input::placeholder,
+  .font-placeholder-contact textarea::placeholder {
+    font-size: 1.5rem;
+  }
+
+  .font-btn-contact {
+    font-size: 1.8rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .contact-section {
+    padding: 70px 40px;
+    margin-top: 100px;
+  }
+  
+  .logo-circle {
+    width: 580px;
+    height: 580px;
+  }
+  
+  .font-head-contact {
+    font-size: 4.5rem;
+  }
+  
+  .font-subhead-contact {
+    font-size: 2.3rem;
+  }
+  
+  .font-placeholder-contact input::placeholder,
+  .font-placeholder-contact textarea::placeholder {
+    font-size: 1.8rem;
+  }
+  
+  .font-btn-contact {
+    font-size: 2.3rem;
+  }
+}

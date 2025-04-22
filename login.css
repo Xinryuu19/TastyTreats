@@ -2,7 +2,7 @@
 .font-head-login{
 
     font-family: myFont !important;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: #532e0a;
     border-bottom: 2px solid black; padding-left: 10px;
     
@@ -11,7 +11,7 @@
 .font-text-login{
 
     font-family: myFont !important;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: black;
     
     
@@ -20,7 +20,7 @@
   .font-liltext-login{
 
     font-family: myFont !important;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: black;
     
     
@@ -29,7 +29,7 @@
   .font-textbox-login{
 
     font-family: myFont !important;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: gray;
     
     
@@ -38,7 +38,7 @@
   .font-btn-login{
 
     font-family: myFont !important;
-    font-size: 1.4rem;
+    font-size: 1rem;
       
     
   }
@@ -47,7 +47,7 @@
   .font-head-signup{
 
     font-family: myFont !important;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: #532e0a;
     border-bottom: 2px solid black; padding-left: 10px;
     
@@ -56,7 +56,7 @@
 .font-text-signup{
 
     font-family: myFont !important;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: black;
     
     
@@ -317,6 +317,12 @@ margin-top: -50px;
     padding: 20px;
     margin-top: 50px;
     
+    }
+
+    .sign-up-real {
+        width: 1300px !important;
+        max-width: 100%; /* Prevents the element from exceeding its parent’s width */
+        height: 750px;
     }
 }
 

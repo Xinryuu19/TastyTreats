@@ -112,7 +112,7 @@ html, body {
   font-family: myFont !important;
   font-size: 2.5rem;
   border-left: 5px solid #c49a6c; padding-left: 10px;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 
@@ -1023,14 +1023,14 @@ html, body {
 
   .img-content2 {
     width: 100%; /* Makes it scale with the section */
-    max-width: 1600px; /* Ensures it doesn’t get too big */
+    max-width: auto; /* Ensures it doesn’t get too big */
     height: 700px; /* Adjust this to control cropping */
-    max-height: 900px; /* Limits height growth */
+    max-height: 1200px; /* Limits height growth */
     opacity: 1; 
     transform: rotate(0deg); /* Slight tilt for aesthetics */
     position: relative; 
     top: 40px; 
-    left: 120px;
+    left: 50px;
     
   
   }

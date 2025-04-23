@@ -195,7 +195,7 @@
   
   .login-platform2 {
     max-width: 1300px;
-    margin-top: 80px;
+  
   }
 
   .font-btn-signup {
@@ -246,8 +246,16 @@
   
   .sign-up-real {
     width: 75%;
-    margin-top: 80px;
-    margin-bottom: 150px;
+   
+  }
+
+  .signup-platform {
+    padding: 10px;
+  }
+
+  .login-platform {
+    
+    height: 920px;
   }
 
   
@@ -256,13 +264,19 @@
 @media (min-width: 1400px) {
   .login-platform2 {
     width: 75%;
+   
   }
   
   .sign-up-real {
     width: 75%;
-    margin-top: 10px;
+    margin-top: -40px;
     margin-bottom: 20px;
   }
+}
+  
 
   
-}
+
+
+
+  
